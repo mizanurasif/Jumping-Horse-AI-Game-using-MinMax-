@@ -1,0 +1,3 @@
+result = player if check_lose(player) else 0
+    if result is not None:
+        return scores[result]
